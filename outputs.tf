@@ -2,9 +2,9 @@
 # OUTPUT
 ##################################################################################
 
-output "vpd_id" {
+output "vpc_id" {
   value       = module.main.vpc_id
-  description = "VPD ID"
+  description = "VPC ID"
 }
 
 output "public_subnets" {
